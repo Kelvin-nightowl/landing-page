@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+
+
+.upper-section {
+    background-color: #1F2937;
+    height: 280px;
+    margin-top: 0px;
+    font-family: Roboto;
+}
+
+.lower-section {
+    background-color: #c2c4c7;
+    height: 200px;
+}
+li {
+    display: inline;
+    padding: 20px;
+    float: right;
+}

@@ -13,12 +13,38 @@
     font-family: Roboto;
 }
 
+.middle-section {
+    background-color: #ffffff;
+}
 .lower-section {
     background-color: #c2c4c7;
     height: 200px;
 }
-li {
+li, a {
     display: inline;
-    padding: 20px;
+    padding: 10px;
     float: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: block;
+    color: #e6e7e9;
+}
+
+.name {
+    font-size: 100px;
+    font-family: 'https://fonts.googleapis.com/css?family=Roboto' 
+    ;
+}
+
+.motto {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.statement {
+    font-size: small;
+    margin-left: 100px;
+    font-style: italic;
 }

@@ -11,14 +11,25 @@
     height: 280px;
     margin-top: 0px;
     font-family: Roboto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .middle-section {
     background-color: #ffffff;
+    height: 200px;
+    display: flex;
 }
 .lower-section {
     background-color: #c2c4c7;
     height: 200px;
+    width: 800px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: larger;
+    
 }
 li, a {
     display: inline;
@@ -46,5 +57,9 @@ header {
 .statement {
     font-size: small;
     margin-left: 100px;
+    font-style: italic;
+}
+.quote {
+    padding-top: 70px;
     font-style: italic;
 }
